@@ -1,0 +1,2 @@
+rootProject.name = "БЭК_cloud_chat"
+include ':app'
