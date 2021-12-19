@@ -6,12 +6,17 @@ import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
 import android.widget.Button;
+import android.widget.EditText;
+import android.widget.Toast;
 
+import com.google.firebase.database.ChildEventListener;
 import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.ValueEventListener;
+
+import java.util.ArrayList;
 
 public class MainActivity extends AppCompatActivity {
     private static void int Max_Message_Length = 100;
@@ -30,7 +35,7 @@ public class MainActivity extends AppCompatActivity {
         mSendButton = findViewById(R.id.send_message);
         mEditTextMessage = findViewById(R.id.message_input);
 
-        mSendButton.setOnCickListener(new View.OnClickListener() {
+        mSendButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
 
@@ -47,7 +52,7 @@ public class MainActivity extends AppCompatActivity {
                 mEditTextMessage.setText("");
             }
         });
-        myRef.addChildEventlistener(new ChildEventListener(){
+        myRef.addChildEventListener(new ChildEventListener(){
             @Override
             public void onClickAdded(DataSnapshot, String s) {
                 String msg = dataSnapshot.getValue(String.class);
