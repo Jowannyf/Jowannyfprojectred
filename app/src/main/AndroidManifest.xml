@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.cloud_chat">
+    package="com.example.cloud_chat_dlya_vuza_muiv">
 
     <application
         android:allowBackup="true"
@@ -9,16 +9,19 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.БЭК_cloud_chat">
-        <activity android:name=".MainActivity"
-            android:exported="true"
-
+        <activity android:name="com.example.cloud_chat_dlya_vuza_muiv.MainActivity"
             >
+        </activity>
+        <activity             android:exported="true"
+             android:name="com.example.cloud_chat_dlya_vuza_muiv.GoogleSignInActivity">
+
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
     </application>
 
 </manifest>

@@ -1,4 +1,4 @@
-package com.example.cloud_chat;
+package com.example.cloud_chat_dlya_vuza_muiv;
 
 import android.content.Context;
 

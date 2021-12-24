@@ -15,6 +15,43 @@
       },
       "oauth_client": [
         {
+          "client_id": "807977718298-97taa0vlt2ra03qt0c587eorgoictjnf.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.cloud_chat",
+            "certificate_hash": "6826775633732e50f4c065dfcb7b18ec67f4f1b9"
+          }
+        },
+        {
+          "client_id": "807977718298-ql0kti35qlhtve1u5vfilo7s0v1s8inq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDgpFovi2jtzAibYpkN68rg5A-pd8EU0dY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "807977718298-ql0kti35qlhtve1u5vfilo7s0v1s8inq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:807977718298:android:74eda6b60e728db35cb7a3",
+        "android_client_info": {
+          "package_name": "com.example.cloud_chat_dlya_vuza_muiv"
+        }
+      },
+      "oauth_client": [
+        {
           "client_id": "807977718298-ql0kti35qlhtve1u5vfilo7s0v1s8inq.apps.googleusercontent.com",
           "client_type": 3
         }
