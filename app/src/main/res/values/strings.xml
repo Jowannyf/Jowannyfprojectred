@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">БЭК_cloud_chat</string>
+    <string name="app_name">Объявления МУИВ</string>
     <string name="send_button_name">Отправить</string>
     <string name="edit_text_hint">Введите сообщение</string>
 </resources>

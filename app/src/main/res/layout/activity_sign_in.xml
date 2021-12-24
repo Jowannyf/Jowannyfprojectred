@@ -9,27 +9,29 @@
 
     <Button
         android:id="@+id/signInTeacher"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_width="283dp"
+        android:layout_height="100dp"
         android:text="Вход для преподавателя"
         android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.411"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="0dp" />
+        app:layout_constraintVertical_bias="0.484"
+        tools:ignore="MissingConstraints" />
 
     <Button
         android:id="@+id/signInStudent"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_width="281dp"
+        android:layout_height="84dp"
         android:text="Вход для студента"
         android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.549"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="0dp" />
+        app:layout_constraintVertical_bias="0.689"
+        tools:ignore="MissingConstraints" />
 
     <ImageView
         android:id="@+id/imageView"
